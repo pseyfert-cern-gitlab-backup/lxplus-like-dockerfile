@@ -1,0 +1,5 @@
+build:
+  stage: build
+  tags:
+    - docker-image-build
+  script: "" # unused but this line is required by GitLab CI
