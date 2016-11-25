@@ -5,4 +5,4 @@ RUN yum install -y make gcc-c++ gcc binutils libXpm-devel libXft-devel
 RUN yum install -y boost-devel boost-*
 RUN yum install -y texlive-*
 RUN yum install -y aspell aspell-en
-RUN yum install -y zsh tree screen
+RUN yum install -y zsh tree screen openssl098e
