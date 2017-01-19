@@ -9,3 +9,4 @@ RUN yum install -y zsh tree screen openssl098e
 RUN yum install -y xrdp xrootd-client subversion
 RUN yum install -y valgrind
 RUN yum install -y python-pip
+RUN yum install -y vim-common vim-enhanced vim-filesystem vim-X11
