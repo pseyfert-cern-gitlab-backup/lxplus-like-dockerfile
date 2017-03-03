@@ -11,3 +11,4 @@ RUN yum install -y valgrind
 RUN yum install -y python-pip
 RUN yum install -y vim-common vim-enhanced vim-filesystem vim-X11
 RUN yum install -y mutt xauth ImageMagick
+RUN yum install -y python-ipython
