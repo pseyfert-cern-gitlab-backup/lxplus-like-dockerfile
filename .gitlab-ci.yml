@@ -1,4 +1,8 @@
+before_script:
+  - echo "testing before_script"
+
 after_script:
+  - echo "testing after_script"
   - curl -X POST -F token=${ADDITIONSTOKEN} -F ref=master https://gitlab.cern.ch/api/v3/projects/16989/trigger/builds
 
 build:
