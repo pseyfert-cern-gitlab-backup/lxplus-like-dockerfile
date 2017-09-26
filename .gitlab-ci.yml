@@ -6,4 +6,5 @@ build:
 
 deploy:
   script:
-    - curl -X POST -F token=${ADDITIONSTOKEN} -F ref=master https://gitlab.cern.ch/api/v3/projects/16989/trigger/builds
+    #- curl -X POST -F token=${ADDITIONSTOKEN} -F ref=master https://gitlab.cern.ch/api/v3/projects/16989/trigger/builds
+    - curl -X POST -F token=${ADDITIONSTOKEN} -F ref=master https://gitlab.cern.ch/api/v4/projects/16989/trigger/pipeline
